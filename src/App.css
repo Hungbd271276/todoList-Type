@@ -1,0 +1,167 @@
+/* body {
+  background-color: #141419;
+  font-family: "Roboto" sans-serif;
+  width: 576px;
+  max-width: 100%;
+  margin: auto;
+} */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.Apps {
+  background-color: #141419;
+  font-family: "Roboto" sans-serif;
+  width: 576px;
+  max-width: 100%;
+  margin: auto;
+ min-height: 100vh;
+
+}
+
+
+h1 {
+  color: #f3f3f3;
+  padding-left: 14px;
+  padding: 15px;
+}
+.Incomplete,
+.completed {
+  margin: 0px 15px;
+}
+
+p.completes {
+  color: #4d4d5c;
+}
+
+.header-complete {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 5px;
+  border-bottom: 1px solid #a9a9a9;
+  margin: 0 15px;
+}
+
+.modalbackground {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  margin: auto;
+}
+
+.modalContainer {
+  background: #fff;
+  min-height: 50%;
+  width: 400px;
+  
+}
+.modalContainer input {
+  width: 94.5%;
+  padding: 12px 20px;
+  margin: 13px;
+}
+.input-text,
+.content-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+select {
+  width: 94.5%;
+  padding: 13px 20px;
+  margin: 13px 13px;
+}
+.btn-submit {
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+.btn-submit button {
+  width: 30%;
+  padding: 13px;
+  border-radius: 7px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  background: orange;
+}
+.close {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.icons i {
+  position: fixed;
+  left: 63%;
+  bottom: 20px;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  background: #42489b;
+  text-align: center;
+  font-size: 24px;
+  border-radius: 25px;
+  border-bottom-width: 2px;
+  cursor: pointer;
+  color: #fff;
+}
+h2 {
+  color: #fff;
+  padding-top: 25px;
+}
+
+.btn-left,
+.btn-right {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 15px;
+  margin: 25px 2px;
+}
+.checkbox p {
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+input[type="checkbox"] {
+  width: 25px;
+  height: 25px;
+}
+
+
+/* Edit Modal */
+h3.edit-modal {
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+.input-text_edit {
+  margin: 10px 0px;
+}
+label {
+  padding: 0px 14px;
+}
+.btn-update, .btn-delete {
+  border: none;
+  width: 60px;
+  height: 30px;
+}
